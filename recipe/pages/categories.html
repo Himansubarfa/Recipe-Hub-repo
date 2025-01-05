@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Hub - Categories</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Recipe Hub</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/pages/categories.html" class="active">Categories</a></li>
+            <li><a href="/pages/about.html">About Us</a></li>
+            <li><a href="/pages/signup.html" class="signup-btn">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1>Recipe Categories</h1>
+        <div class="categories-grid">
+            <div class="category" data-category="main-course">
+                <h2>Main Course</h2>
+            </div>
+            <div class="category" data-category="desserts">
+                <h2>Desserts</h2>
+            </div>
+            <div class="category" data-category="appetizers">
+                <h2>Appetizers</h2>
+            </div>
+            <div class="category" data-category="beverages">
+                <h2>Beverages</h2>
+            </div>
+        </div>
+        <div id="category-recipes" class="recipes-grid"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Recipe Hub. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="/js/pages/categories.js"></script>
+</body>
+</html>
